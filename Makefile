@@ -1,4 +1,4 @@
 export PATH := $(PWD)/bin:$(PATH)
 
 test:
-	prove
+	prove -lv
